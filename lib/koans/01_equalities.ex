@@ -18,22 +18,22 @@ defmodule Equalities do
   end
 
   koan "To understand reality, we must compare our expectations against reality" do
-    assert 2 == 1 + ___
+    assert 2 == 1 + 1
   end
 
   koan "Some things may appear different, but be the same" do
-    assert 1 == 2 / ___
+    assert 1 == 2 / 2
   end
 
   koan "Unless they actually are different" do
-    assert 3.2 != ___
+    assert 3.2 != "a dog"
   end
 
   koan "Some may be looking for bigger things" do
-    assert ___ > 3
+    assert 3.00000000000001 > 3
   end
 
   koan "Others are happy with less" do
-    assert ___ < 3
+    assert -100 < 3
   end
 end
